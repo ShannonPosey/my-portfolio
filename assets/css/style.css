@@ -25,10 +25,6 @@ h3{
     color: var(--pink);
 }
 
-/* .card-block{
-    margin-left: 140px;
-} */
-
 /****** Header Section ******/
 
 header{
@@ -58,6 +54,7 @@ header h2 {
     font-size: 72px;
     padding: 80px 85px 0 85px;
     width: 1000px;
+    text-align: center;
 }
 
 nav{
@@ -188,17 +185,20 @@ footer .full-width{
     font-family: 'Monsterrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    text-align: center;
+   padding: 15px 300px;
 }
+.copyright{
+    text-align: center;
+    padding: 15px 300px;
+}
+
 .flex-row {
     display: flex;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
-@media screen and (max-width: 980px) {
-    
-
-    .full-width {
+@media screen and (min-width: 200px) and (max-width: 980px) {
+   .full-width {
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -213,7 +213,7 @@ footer .full-width{
         align-items: center;
         flex-wrap: wrap;
         align-content: center;
-        flex-direction: column;
+        flex-direction: row;
         float: none;
     }
 
@@ -222,27 +222,28 @@ footer .full-width{
         padding: 0;
    }
 
-    nav, ul, li {
-         flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        flex-direction: row;
-        align-items: center;
-    }
-
+  
     header h2 {
         width: 50%;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-        flex-direction: row;
-    }
+        font-size: 48px;
+}
+#portfolio {
+    height: 100%;
 }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER*/
+#portfolio p{
+    font-size: 20px;
+}
 
-@media screen and (max-width: 768px) {}
+#portfolio .picture {
+    height: 35%;
+    width: 55%;
+}
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+#about {
+    background-image: url(../img/about-me.png);
+    background-size: auto;
+    
+}
 
-@media screen and (max-width: 575px) {}
+}
