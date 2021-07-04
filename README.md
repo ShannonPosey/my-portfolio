@@ -18,38 +18,17 @@
 
 ### 🏠 [Homepage](https://shannonposey.github.io/my-portfolio/)
 
-### ✨ [Demo](&#34;&#34;)
-
-## Install
-
-```sh
-&#34;&#34;
-```
-
-## Usage
-
-```sh
-&#34;&#34;
-```
-
-## Run tests
-
-```sh
-&#34;&#34;
-```
 
 ## Author
 
 👤 **Shannon Posey**
 
-* Website: &#34;&#34;
-* Twitter: [@&#34;&#34;](https://twitter.com/&#34;&#34;)
 * Github: [@ShannonPosey](https://github.com/ShannonPosey)
 * LinkedIn: [@https:\/\/www.linkedin.com\/in\/shannonposey](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/shannonposey)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](&#34;&#34;). You can also take a look at the [contributing guide](&#34;&#34;).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page]. You can also take a look at the [contributing guide].
 
 ## Show your support
 
@@ -62,7 +41,6 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2021 [Shannon Posey](https://github.com/ShannonPosey).<br />
-This project is [&#34;&#34;](&#34;&#34;) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
