@@ -14,7 +14,7 @@
   </a>
 </p>
 
-> Display of work using HTML, CSS, and HJavaScript
+> Display of work using HTML, CSS, and JavaScript
 
 ### 🏠 [Homepage](https://shannonposey.github.io/my-portfolio/)
 
