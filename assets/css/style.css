@@ -12,13 +12,13 @@ body{
 /****** Grid ******/
 
 .full-width{
-    width: 1200px;
+    width: 100%;
     overflow: auto;
 }
 
 .half-width{
     float: left;
-    width: 600px;
+    width: 50%;
 }
 
 h3{
@@ -82,11 +82,12 @@ span{
 
 #portfolio .full-width {
     margin: 0 auto;
-    padding-bottom: 40px;
+   text-align: center;
+
 }
 
 #portfolio {
-    height: 1450px;
+    height: 1500px;
 }
 
 #portfolio h3{
@@ -112,7 +113,7 @@ span{
 
 #portfolio .picture{
     border: 1px solid #b7b7b7;
-    height: 350px;
+    height: 300px;
     width: 550px;
 }
 
