@@ -1,204 +1,201 @@
 /****** Base Style ******/
+* {
+    box-sizing: border-box;
+}
 :root {
     --pink: #fa0075;
-    --white: #FFFFFF;
+    --white: #ffffff;
 }
+
 /* font-family: 'Source Code Pro', monospace; */
 /* font-family: 'Montserrat', sans-serif; */
-body{
+body {
     background-color: #1f202b;
-    font-family: 'Monsterrat', sans-serif;
-}
-/****** Grid ******/
-
-.full-width{
-    width: 100%;
-    overflow: auto;
+    font-family: "Monsterrat", sans-serif;
 }
 
-.half-width{
-    float: left;
-    width: 50%;
-}
 
-h3{
+h3 {
     color: var(--pink);
-}
+} */
 
 /****** Header Section ******/
+.nav-link {
+    border: 2px solid transparent;
+}
 
-header{
+.nav-link:hover {   
+    text-decoration: none;
+    border-bottom: 2px solid var(--pink);
+}
+
+header {
     background-image: url(../img/hero-background.png);
     background-size: cover;
     height: 800px;
-}
+ }
 
-h1 .full-width{
-    margin-bottom: 100px;
-}
-div h1{
+ header h1 {
+     color: var(--white);
+     font-size: 30px;
+     font-weight: 400;
+     padding: 5px 0 45px;
+ }
+.header h1 {
     margin-top: auto;
+    color: var(--white);
+    
 }
 
-header h1{
-   color: var(--white);
-   font-size: 30px;
-   font-weight: 400;
-   padding: 5px 0  45px;
+span {
+    color: var(--pink);
 }
 
 header h2 {
     clear: both;
     color: var(--white);
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
     font-size: 72px;
     padding: 80px 85px 0 85px;
     width: 1000px;
     text-align: center;
 }
 
-nav{
-    float: right;
-    padding: 45px;
-}
 
-nav, ul, li{
-    display: inline-block;
-}
-
-nav, ul, li, a{
-    color: var(--white);
-    font-size: 20px;
-    padding: 5px;
-    text-decoration: none;
-
-}
-
-span{
-    color: var(--pink);
-}
 
 /****** Portfolio Section  ******/
 
-#portfolio .full-width {
+#portfolio {
     margin: 0 auto;
-   text-align: center;
-
+    text-align: center;
 }
 
 #portfolio {
     height: 1500px;
 }
 
-#portfolio h3{
-    font-family: 'Source Code Pro', monospace;
+#portfolio h3 {
+    font-family: "Source Code Pro", monospace;
     font-size: 36px;
     font-weight: 500;
     text-align: center;
 }
 
-#portfolio h4{
+#portfolio h4 {
     color: var(--white);
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: bold;
 }
 
-#portfolio p{
+#portfolio p {
     color: var(--white);
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
 }
 
-#portfolio .picture{
-    border: 1px solid #b7b7b7;
+#portfolio .picture {
+    border: 15px solid #b7b7b7;
     height: 300px;
     width: 550px;
 }
 
-.lg-picture:hover{
-    transform: scale(1.5);
+#portfolio .projects{
+    margin: 50px 0 50px 0;
 }
 
-.picture:hover{
+#portfolio .lg-picture {
+    border: 15px solid #b7b7b7;
+    height: 600px;
+    width: 600px;
+}
+
+.lg-picture:hover, .picture:hover {
     opacity: 0.5;
-}
-
+} 
 
 /****** About Section ******/
 
-#about{
+ #about {
     background-image: url(../img/about-me.png);
     background-size: contain;
     height: 550px;
-    }
+}
 
-#about, .full-width{ /*only the elements like these two get the comma*/
+#about {
+    /*only the elements like these two get the comma*/
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 15px;
 }
 
-#about h3{ /*elements like these two do not get the comma*/
-   font-family: 'Source Code Pro', monospace;
-   font-size: 36px;
-   font-weight: 500;
-   text-align: center;
+#about h3 {
+    /*elements like these two do not get the comma*/
+    font-family: "Source Code Pro", monospace;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
 }
 
-#about p{
-    font-family: 'Monsterrat', sans-serif;
+#about p {
+    font-family: "Monsterrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 35px;
     padding: 0 55px 0 15px;
 }
 
-
 /****** Contact Section ******/
 
-#contact{
+ #contact {
     margin: 0 auto;
     height: 400px;
 }
 
-#contact .half-width{
+#contact{
     text-align: center;
 }
-#contact h3{
-    font-family: 'Source Code Pro',monospace;
+
+#contact h3 {
+    font-family: "Source Code Pro", monospace;
     font-size: 36px;
     font-weight: 500;
     text-align: center;
 }
 
-#contact h4{
+#contact h4 {
     color: var(--white);
 }
 
-#contact p{
+#contact p {
     color: var(--white);
-    font-family: 'Monsterrat', sans-serif;
+    font-family: "Monsterrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
-     text-align: center;
+    text-align: center;
 }
 
-.social{
+.social {
     border-radius: 25px;
 }
 
-footer .full-width{
+#social-media {
+    margin-top: 100px;
+}
+
+footer {
     color: var(--white);
-    font-family: 'Monsterrat', sans-serif;
+    font-family: "Monsterrat", sans-serif;
     font-size: 18px;
     font-weight: 400;
-   padding: 15px 300px;
+    padding: 15px 300px;
 }
-.copyright{
+
+.copyright {
     text-align: center;
     padding: 15px 300px;
+    margin-top: 50px;
 }
 
 .flex-row {
@@ -206,53 +203,148 @@ footer .full-width{
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
-@media screen and (min-width: 200px) and (max-width: 980px) {
-   .full-width {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        overflow: none;
+
+
+/****** Media Queries ******/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+      .container-fluid {
+          width: 100%;
+      }
+
+      header {
+          background-image: url(../img/hero-background.png);
+          background-size: cover;
+          width: 100%;
+      }
+
+      header, img{
+          margin-bottom: ;
+      }
+
+      header h2 {
+          width: 50%;
+          font-size: 48px;
+      }
+.main-container {
+    margin-top: 300px;
+}
+      #portfolio {
+          height: 100%;
+      }
+
+      #portfolio p {
+          font-size: 20px;
+      }
+
+      #about {
+          background-image: url(../img/about-me.png);
+          background-size: auto;
+      }
     }
 
-    .half-width {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        align-content: center;
-        flex-direction: row;
-        float: none;
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+     .container-fluid {
+         width: 100%;
+     }
+
+     header {
+         background-image: url(../img/hero-background.png);
+         background-size: cover;
+         width: 100%;
+     }
+
+     header h2 {
+         width: 50%;
+         font-size: 48px;
+     }
+.main-container {
+    margin-top: 300px;
+}
+     #portfolio {
+         height: 100%;
+     }
+
+     #portfolio p {
+         font-size: 20px;
+     }
+
+     #about {
+         background-image: url(../img/about-me.png);
+         background-size: auto;
+     }
     }
 
-   nav {
-        float: none;
-        padding: 0;
-   }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+      .container-fluid {
+          width: 100%;
+      }
 
-  
-    header h2 {
-        width: 50%;
-        font-size: 48px;
-}
-#portfolio {
-    height: 100%;
-}
+      header {
+          background-image: url(../img/hero-background.png);
+          background-size: cover;
+          width: 100%;
+      }
 
-#portfolio p{
-    font-size: 20px;
-}
+      header h2 {
+          width: 50%;
+          font-size: 48px;
+      }
 
-#portfolio .picture {
-    height: 35%;
-    width: 55%;
-}
+      .main-container {
+          margin-top: 300px;
+      }
 
-#about {
-    background-image: url(../img/about-me.png);
-    background-size: auto;
-    
-}
+      #portfolio {
+          height: 100%;
+      }
 
-}
+      #portfolio p {
+          font-size: 20px;
+      }
+
+      #about {
+          background-image: url(../img/about-me.png);
+          background-size: auto;
+      }
+      .copyright{
+          text-align: center;
+      }
+      }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+     .container-fluid {
+         width: 100%;
+     }
+
+     header {
+         background-image: url(../img/hero-background.png);
+         background-size: cover;
+         width: 100%;
+     }
+
+     header h2 {
+         width: 50%;
+         font-size: 48px;
+     }
+     
+     .main-container {
+         margin-top: 300px;
+     }
+     
+     #portfolio {
+         height: 100%;
+     }
+
+     #portfolio p {
+         font-size: 20px;
+     }
+
+     #about {
+         background-image: url(../img/about-me.png);
+         background-size: auto;
+     }
+     }

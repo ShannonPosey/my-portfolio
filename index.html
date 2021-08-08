@@ -1,96 +1,153 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Shannon Posey | Portfolio</title>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
 
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
+    
+    <!-- Bootstrap Stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <!--CSS StyleSheet-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <title>Shannon Posey | Portfolio</title>
+</head>
 <body>
-    <header>
-    <div class="full-width">
-    <div class="half-width">
-        <h1>&lt; Shannon Posey &verbar; Full Stack Web Developer &sol;&gt;</h1>
-    </div>
-    <div class="half-width">
-        <nav>
-            <ul> 
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-    </div>
-    <div class="full-width">
-    <h2>let's  <span>code</span> something cool</h2>
-    </div>
-    </header>
-    <main>
-        <section id="portfolio">
-            <h3>my portfolio</h3>
-            <div class="full-width">
-            <h4>Run Buddy<br>HTML &amp; CSS</h4>
-                    <a href="https://shannonposey.github.io/run-buddy/">
-                <img class="picture lg-picture" src="./assets/img/run-buddy.png" alt="Work Sample using HTML and CSS"></a>
+<!--Nav bar-->
+    <div class="container-fluid pt-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
+                <h1 class="text-white d-inline">&lt; Shannon Posey &verbar; Full Stack Web Developer &sol;&gt;</h1>
             </div>
-            <div class="full-width">
-                <h4>Horiseon<br>HTML 5 &amp; CSS Website</h4>
-                    <a href="https://shannonposey.github.io/Horiseon/">
-                    <img class="picture" src="./assets/img/Horiseon-screenshot.png" alt="Work Sample using HTML and CSS"></a>
-                    
-            </div>
-            <div class="full-width">
-                <h4>Robot Gladiator Game<br>JavaScript</h4>
-               <a href="https://shannonposey.github.io/robot-gladiators/">
-                    <img class="picture" src="./assets/img/robot-gladiators-game.png" alt="Work Sample using Javascript"></a>
-              </div>
-        </section>
-        <section id="about">
-            <div class="full-width">
-                <div class="half-width">
-                <h3>about me</h3>
-                <p>My passion for web development started when I worked for a hospitality and tourism e-commerce company using just HTML on their CMS website. I enjoyed that aspect of creating web pages people visited every day. Fast forward a few years later, I decide to learn a new skill and scene. I was familiar with HTML, and I decided to learn more about coding to have a
-                challenging and rewarding career as a Web Developer.</p> 
+            <div class="col-sm-12 col-md-6 col-lg-6 pt-2">
+                <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+                        <div class="col-4"><a href="#portfolio" class="text-white nav-link">Portfolio</a></div>
+                        <div class="col-4"><a href="#about" class="text-white nav-link">About</a></div>
+                        <div class="col-4"><a href="#contact" class="text-white nav-link">Contact</a></div>
                 </div>
-                <div class="half-width"></div>
             </div>
-        </section>  
+    </div>
+
+    <!--Header Section-->
+    <div class="container-fluid header">
+        <header>
+            <div class="row  pt-3">
+            <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-item-center text-align-center">
+                <h2>let's <span>code</span> something to cool </h2>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-item-center text-align-center">
+                <img src="./assets/img/avataaars.png" alt="Picture of an Avatar">
+            </div>
+            </div>
+        </header>
+    </div>
+
+<!--Main section-->
+    
+       <div class="container-fluid main-container">
+        <main>
+           <div class="row">
+                <section id="portfolio">
+                    <h3>my portfolio</h3>
+                    <div class="col-12">
+                        <h4>Create A Date<br> HTML, CSS &amp; Javascript</h4>
+                        <a href="https://shannonposey.github.io/Create-a-date/"><img class="lg-picture" src="./assets/img/create-a-date.png" alt="Create A date app"></a>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-6 projects">
+                            <h4>Password Generator<br>HTML &amp; JavaScript</h4>
+                            <a href="https://shannonposey.github.io/password-generator/"><img class="picture" src="./assets/img/password-generator.png" alt="Password Generating App"></a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 projects">
+                            <h4>Work Day Scheduler<br> HTML, CSS &amp; JavaScript</h4><a href="https://shannonposey.github.io/Work-Day-Scheduler/"><img class="picture" src="./assets/img/color-code.png" alt="Work Day Scheduler"></a>
+                        </div>
+                    </div>
+                   
+                    <!-- <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-6 projects">
+                            <h4>JavaScript Code Quiz</h4>
+                            <a href=""><img class="picture" src="" alt="Online Coding Quiz"></a>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-6 projects">
+                            <h4>Weather Dashboard</h4>
+                            <a href=""><img class="pitcure" src="" alt="Weather Dashboard App"></a>
+                        </div>
+                    </div> -->
+
+                </section>
+                </div>
+            <div class="row">
+                <section id="about" class="col-12">
+                    <h3>about me</h3>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p>My passion for web development started when I worked for a hospitality and tourism e-commerce company using just HTML on
+                    their CMS website. I enjoyed that aspect of creating web pages people visited every day. Fast forward a few years later,
+                    I decide to learn a new skill and scene. I was familiar with HTML, and I decided to learn more about coding to have a
+                    challenging and rewarding career as a Web Developer.</p>
+                    </div>
+                </section>
+            </div> 
         </main>
-        <footer id="contact">
-            <div class="full-width">
-                <h3>let's Connect</h3>
-                <div class="half-width">
-                    <!-- this is the left side of the page-->
-                    <h4 id="email-header">Contact me below.</h4>
-                    <p>407-443-3274</p>
-                    <a href="mailto:shannon.posey@protonmail.com">
-                    shannon.posey [@] protonmail.com
-                    </a>
-                </div>
-                <div class="half-width">
-                    <!-- this is the right side of the page-->
-                    <h4 id="socialmedia-header">Or, find me on the interwebs</h4>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/shannonposey"><img class="social" src="./assets/img/LinkedIn.png" alt="LinkedIn Logo"></a></li>
-                        <li><a href="https://github.com/shannonposey"><img class="social git" src="./assets/img/GitHub.png" alt="GitHub Logo"></a></li>
-                    </ul>
+      </div>
+
+      <!--Footer Section -->
+      <div class="container-fluid footer-container">
+          <footer id="contact">
+              <h3>let's connect</h3>
+              <div class="row" id="social-media">
+                  <!-- this is the left side of the page-->
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                      <h4 id="email-header">Contact me below</h4>
+                       <p>407-504-7746</p>
+                      <a href="mailto:shannon.posey@protonmail.com">shannon.posey [@] protonmail.com</a>
+                  </div>
+                <!-- this is the right side of the page-->
+                  <div class="col-sm-12 col-md-6 col-lg-6">
+                      <h4 id="social-header">Or, find me on the interwebs</h4>
+                      <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-6">
+                          <a href="https://www.linkedin.com/in/shannonposey"><img class="social" src="./assets/img/LinkedIn.png" alt="LinkedIn Logo"></a>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-6">
+                          <a href="https://github.com/shannonposey"><img class="social git" src="./assets/img/GitHub.png" alt="GitHub Logo"></a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            <div class="container-fluid copyright-container"></div>
+            <div class="row d-flex justify-content-center align-item-center text-align-center">
+                <div class="col-12 copyright">
+                    <h5 class="text-white">&copy; 2021 &verbar; Shannon Posey</h5>
                 </div>
             </div>
-            <div class="full-width copyright">
-                <h5>&copy; 2021 &verbar; Shannon Posey</h5>
-            </div>
-        </footer>
+           </footer>
+      </div>
+    
         
+    </div>
+
+      
+   
+
+        
+
+
+
+
+
+
+
+
+
+        <!--Need the create a date div to be col-xl-->
+    
     
 </body>
-
 </html>
